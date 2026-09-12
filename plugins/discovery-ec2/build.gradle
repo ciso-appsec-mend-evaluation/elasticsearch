@@ -32,7 +32,7 @@ dependencies {
   api "com.fasterxml.jackson.core:jackson-databind:${versions.jackson}"
   api "com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}"
   api "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:${versions.jackson}"
-  api "joda-time:joda-time:2.10.10"
+  api "joda-time:joda-time:2.14.3"
 }
 
 restResources {
