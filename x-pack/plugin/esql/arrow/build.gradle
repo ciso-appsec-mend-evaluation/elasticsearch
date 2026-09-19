@@ -15,7 +15,7 @@ dependencies {
   implementation('org.apache.arrow:arrow-vector:16.1.0')
   implementation('org.apache.arrow:arrow-format:16.1.0')
   implementation('org.apache.arrow:arrow-memory-core:16.1.0')
-  implementation('org.checkerframework:checker-qual:3.42.0')
+  implementation('org.checkerframework:checker-qual:3.55.1')
   implementation('com.google.flatbuffers:flatbuffers-java:23.5.26')
   // Needed for the json arrow serialization, and loaded even if we don't use it.
   implementation("com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}")
