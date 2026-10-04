@@ -17,7 +17,7 @@ dependencies {
   javaRestTestImplementation "org.slf4j:slf4j-api:${versions.slf4j}"
   javaRestTestImplementation "org.slf4j:slf4j-simple:${versions.slf4j}"
   javaRestTestRuntimeOnly "com.google.guava:guava:16.0.1"
-  javaRestTestRuntimeOnly "commons-cli:commons-cli:1.2"
+  javaRestTestRuntimeOnly "commons-cli:commons-cli:1.11.0"
 }
 
 restResources {

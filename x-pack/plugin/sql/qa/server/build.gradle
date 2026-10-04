@@ -59,11 +59,11 @@ subprojects {
 
     dependencies {
       configurations.javaRestTestRuntimeClasspath {
-        resolutionStrategy.force "org.slf4j:slf4j-api:1.7.25"
+        resolutionStrategy.force "org.slf4j:slf4j-api:1.7.36"
       }
       configurations.javaRestTestRuntimeOnly {
         // This is also required to make resolveAllDependencies work
-        resolutionStrategy.force "org.slf4j:slf4j-api:1.7.25"
+        resolutionStrategy.force "org.slf4j:slf4j-api:1.7.36"
       }
 
       /* Since we're a standalone rest test we actually get transitive
@@ -111,7 +111,7 @@ subprojects {
 
       javaRestTestRuntimeOnly project(path: ':modules:rest-root')
 
-      javaRestTestRuntimeOnly "org.slf4j:slf4j-api:1.7.25"
+      javaRestTestRuntimeOnly "org.slf4j:slf4j-api:1.7.36"
     }
   }
 }

@@ -17,7 +17,7 @@ dependencies {
   javaRestTestImplementation project(path: ':test:fixtures:hdfs-fixture', configuration:"shadowedHdfs2")
   javaRestTestImplementation project(':test:fixtures:krb5kdc-fixture')
   javaRestTestRuntimeOnly "com.google.guava:guava:16.0.1"
-  javaRestTestRuntimeOnly "commons-cli:commons-cli:1.2"
+  javaRestTestRuntimeOnly "commons-cli:commons-cli:1.11.0"
 }
 
 restResources {
